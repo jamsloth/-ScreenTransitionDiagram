@@ -9,10 +9,22 @@
 
   <body>
     <h1>ScreenTransitionDiagram</h1>
+    <form>
+      <h2>Screen Name</h2>
+      <input type="text" name="screenName" id="screenNameId">
+      <h2>Screen Explanation</h2>
+      <input type="text" name="screenExplanation" id="screenExplanationId">
+      <input type="button" value="add" onclick="add()">
+    </form>
     <div>
       <h1>ScreenName</h1>
       <h2>Screen Explanation</h2>
     </div>
+    <div>
+      <h1 id="outputScreenName"></h1>
+      <h2 id="outputScreenExplanation"></h2>
+    </div>
+    <script src="js/main.js"></script>
   </body>
 
   </html>
